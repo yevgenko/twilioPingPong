@@ -1,2 +1,18 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link href="/stylesheets/style.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+      var PP_TOKEN = "{{token}}";
+    </script>
+    <script type="text/javascript" src="http://static.twilio.com/libs/twiliojs/1.0/twilio.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+  </head>
+  <body>
+    <button id="ping">
+      Ping
+    </button>
+    <div id="log">Loading pigeons...</div>
+  </body>
+</html>

@@ -1,9 +1,10 @@
 {
-    "name": "twilioSandbox"
-  , "version": "0.0.1"
+    "name": "twilioPingPong"
+  , "version": "0.1.0"
   , "private": true
   , "dependencies": {
       "express": "2.5.2"
     , "stache": ">= 0.1.0"
+    , "twilio2": "https://github.com/yevgenko/node-twilio/tarball/master"
   }
 }

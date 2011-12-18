@@ -1,0 +1,7 @@
+module.exports.Credentials = {
+    sid: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' // Account SID
+  , authToken: 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy' // Auth Token
+  , appSid: 'APzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz' // Sandbox App SID
+  , phone: '+10000000000' // Verified twilio number, NOT sandbox!!!
+  , name: 'koko'
+};
